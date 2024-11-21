@@ -6079,7 +6079,7 @@ meta_window_begin_grab_op (MetaWindow           *window,
                                       window, op,
                                       device, sequence,
                                       timestamp,
-                                      pos_hint);
+                                      pos_hint, NULL);
 }
 
 MetaStackLayer
